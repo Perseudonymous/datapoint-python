@@ -23,7 +23,6 @@ classifiers=[
 ]
 dependencies = [
   "requests >= 2.20.0,<3",
-  "appdirs >=1,<2",
   "geojson >= 3.0.0,<4",
 ]
 license = {file = "LICENSE"}
