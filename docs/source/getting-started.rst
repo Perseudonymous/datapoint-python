@@ -19,13 +19,13 @@ Now that you have an API key you can import the module:
 
 ::
 
-   import datapoint
+   import datapoint.Manager
 
 And create a connection to DataHub:
 
 ::
 
-   manager = datapoint.Manager(api_key="aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee")
+   manager = datapoint.Manager.Manager(api_key="aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee")
 
 This creates a `manager` object which manages the connection and interacts
 with DataHub.
